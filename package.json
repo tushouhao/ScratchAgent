@@ -1,0 +1,15 @@
+{
+  "name": "atomcode-mini",
+  "version": "1.0.0",
+  "description": "A from-scratch AI coding agent with zero dependencies.",
+  "type": "module",
+  "bin": {
+    "agent": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
