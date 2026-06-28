@@ -7,6 +7,9 @@
 # 运行时数据（会话/技能/记忆/任务）
 .agent/
 
+# 子项目（agent 编译/打包相关）
+agent/
+
 # Bun 编译产物
 agent.exe
 
