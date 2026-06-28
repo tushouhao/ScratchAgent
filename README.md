@@ -41,8 +41,8 @@ cd atomcode-mini
 | 变量 | 说明 | 默认值 |
 |---|---|---|
 | `LM_API_KEY` / `LLM_API_KEY` | API Key（必填） | — |
-| `LM_BASE_URL` / `LLM_BASE_URL` | OpenAI 兼容接口地址 | `https://api.longcat.chat/openai` |
-| `LM_MODEL` / `LLM_MODEL` | 模型名 | `LongCat-2.0-Preview` |
+| `LM_BASE_URL` / `LLM_BASE_URL` | OpenAI 兼容接口地址 | `` |
+| `LM_MODEL` / `LLM_MODEL` | 模型名 | `` |
 | `LM_MAX_CHARS` | 上下文压缩阈值（字符数） | `24000` |
 | `LM_KEEP_RECENT` | 压缩时保留最近消息数 | `12` |
 | `LM_SUMMARY_TRIGGER` | 摘要本身再压缩的阈值 | `16000` |

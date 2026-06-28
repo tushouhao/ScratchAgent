@@ -9,9 +9,9 @@
 import { renderMemoryForPrompt } from "./memory.js";
 
 // 接口地址：可指向任意 OpenAI 协议兼容服务（DeepSeek/智谱/Ollama/vLLM 等）
-const BASE_URL = process.env.LM_BASE_URL || process.env.LLM_BASE_URL || "https://api.longcat.chat/openai";
+const BASE_URL = process.env.LM_BASE_URL || process.env.LLM_BASE_URL || "";
 // API Key，缺则启动时告警
-const API_KEY = process.env.LM_API_KEY || process.env.LLM_API_KEY || "ak_2kB9NZ50i9RI3PL3pA8854fH0JI9G";
+const API_KEY = process.env.LM_API_KEY || process.env.LLM_API_KEY || "";
 // 模型名
 const MODEL = process.env.LM_MODEL || process.env.LLM_MODEL || "LongCat-2.0-Preview";
 
